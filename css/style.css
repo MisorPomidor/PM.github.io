@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "MagicHour";
+    src: url("../Fonts/ca-magichour-regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;    
+}
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+body{
+    background: linear-gradient(90deg, #0A0B0D, #2D3540, #1C2026, #465059);
+    background-size: 300% , 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientAnimation 40s infinite linear;
+}
+.text{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "MagicHour", sans-serif;
+}
+.header{
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #FFD700, #FFA500, #1E90FF, #0000FF);
+    background-size: 300% , 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientAnimation 5s infinite linear;
+    font-family: "MagicHour", sans-serif;
+}
+.text:hover{
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #FFD700, #FFA500, #1E90FF, #0000FF);
+    background-size: 300% , 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientAnimation 5s infinite linear;    
+}
+.Button:hover{
+  cursor: pointer;
+}
